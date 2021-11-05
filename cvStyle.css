@@ -1,0 +1,78 @@
+ body {
+    font-family:sans-serif;
+    margin: 0;
+   }
+   b {
+    font-size: 18px;
+  }
+*{
+    box-sizing: border-box;
+}
+.left {  
+    display: flex;
+    flex-wrap:nowrap;
+  }
+  .right {
+    flex: 25%;
+    background-color: rgb(122, 122, 122);
+    padding: 20px;
+    
+  }
+  .a {
+    flex: 70%;
+    background-color: rgb(122,122,122);
+    padding: 20px;
+    
+  }
+  .profile {
+    background-image: url("farah.jpg");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 0.5em;
+  }
+  .name{
+    text-align: left;
+    margin-left: 0.3em;
+    margin-top:  10em; 
+    color: #ffffff;
+  }
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(122, 38, 38, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    padding-bottom: 2em;
+   }
+
+  .information, .experience, .education {
+    font-size: 16px;
+    color: #666666;
+    padding: 0.5em 1.5em;    
+  }
+  .skillsTab, .languageTab{
+    width: 100%;
+    background-color: #e6e6ff;
+    border-radius: 1em;
+  }
+  .skills, .language {
+    font-size: 12px;
+    text-align: center;  
+    color: white;
+  }
+.SQL {width: 90%; background-color: #30b86d; border-radius: 1em;}
+.XML {width: 80%; background-color: #30b86d; border-radius: 1em;}
+.Tableau {width: 65%; background-color: #30b86d; border-radius: 1em;}
+.Datamining {width: 60%; background-color: #30b86d; border-radius: 1em;}
+.arabic {width: 100%; background-color: #30b86d; border-radius: 1em;}
+.english {width: 75%; background-color: #30b86d; border-radius: 1em;}
+
+footer {
+      text-align: center;
+      text-decoration: none;
+      background-color: #30b86d;
+      color: #ffffff;
+      padding: 1em;
+ }
+
+  
